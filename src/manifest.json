@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "二维码地址栏",
+    "version": "1.0",
+
+    "description": "Make url to qrcode.",
+    "icons": {
+        "128": "icons/icon128.png",
+        "48": "icons/icon48.png",
+        "32": "icons/icon32.png",
+        "16": "icons/icon16.png"
+    },
+
+    "page_action": {
+        "default_icon": "icons/icon32.png",
+        "default_title": "二维码网址",
+        "default_popup": "popup.html"
+    },
+
+    "homepage_url": "https://github.com/poem/QRUrl",
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "permissions": ["tabs"]
+}
